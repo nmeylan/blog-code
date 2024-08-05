@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="374be17e-f74a-4461-a381-339dcd0184ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-jdbc-named-parameters-jdbc-template/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/main/java/com/meylantc/articles/example/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/main/java/com/meylantc/articles/example/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/main/java/com/meylantc/articles/example/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/main/java/com/meylantc/articles/example/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/main/java/com/meylantc/articles/example/spi/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/main/java/com/meylantc/articles/example/spi/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/main/java/com/meylantc/articles/example/spi/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/main/java/com/meylantc/articles/example/spi/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/test/java/com/meylantc/articles/example/AbstractBenchmarkContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/test/java/com/meylantc/articles/example/AbstractBenchmarkContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/test/java/com/meylantc/articles/example/BenchmarkApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/test/java/com/meylantc/articles/example/BenchmarkApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/test/java/com/meylantc/articles/example/UserServiceBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/test/java/com/meylantc/articles/example/UserServiceBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2kCpWZHnyMIJKbuKZ4LMEPrGQXA" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.UserServiceBenchmark.executor": "Run",
+    "Maven.parent [clean,install].executor": "Run",
+    "Maven.parent [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/nmeylan/dev/meylan-tech/blog/how-to-benchmark-spring-beans-with-jmh/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.parent [clean,install]">
+    <configuration name="UserServiceBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.meylantc.articles.example.UserServiceBenchmark" />
+      <module name="how-to-benchmark-spring-beans-with-jmh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meylantc.articles.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="blog" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="blog" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="parent [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="temurin-21" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.UserServiceBenchmark" />
+      <item itemvalue="Maven.parent [clean,install]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UserServiceBenchmark" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="374be17e-f74a-4461-a381-339dcd0184ce" name="Changes" comment="" />
+      <created>1722797446163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722797446163</updated>
+      <workItem from="1722797447197" duration="8618000" />
+      <workItem from="1723206895970" duration="1295000" />
+      <workItem from="1725974841193" duration="402000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
