@@ -5,12 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="374be17e-f74a-4461-a381-339dcd0184ce" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-jdbc-named-parameters-jdbc-template/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jdbc-named-parameters-jdbc-template/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-transaction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-transaction/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,32 +34,47 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.UserServiceBenchmark.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.parent [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.parent [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nmeylan/dev/meylan-tech/blog/how-to-benchmark-spring-beans-with-jmh/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.UserServiceBenchmark.executor": "Run",
+    "Maven.parent [clean,install].executor": "Run",
+    "Maven.parent [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "temurin-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/dev/synced/blog-code/spring-transaction/src/test/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\synced\blog-code\spring-transaction\src\test\resources" />
+      <recent name="C:\dev\synced\blog-code\spring-transaction\src\main\java\ch\nmeylan\blog" />
       <recent name="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\synced\blog-code\spring-transaction\target\classes\ch\nmeylan\blog" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ch.nmeylan.blog" />
+    </key>
   </component>
-  <component name="RunManager" selected="Maven.parent [clean,install]">
+  <component name="RunManager" selected="JUnit.UserServiceIT.nameValidation">
     <configuration name="UserServiceBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -59,6 +86,38 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceIT.nameValidation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-transaction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.nmeylan.blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.nmeylan.blog" />
+      <option name="MAIN_CLASS_NAME" value="ch.nmeylan.blog.UserServiceIT" />
+      <option name="METHOD_NAME" value="nameValidation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceIT.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-transaction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.nmeylan.blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.nmeylan.blog" />
+      <option name="MAIN_CLASS_NAME" value="ch.nmeylan.blog.UserServiceIT" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,12 +180,31 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-transaction" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ch.nmeylan.blog.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.nmeylan.blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.UserServiceBenchmark" />
+      <item itemvalue="JUnit.UserServiceIT.nameValidation" />
+      <item itemvalue="JUnit.UserServiceIT.save" />
       <item itemvalue="Maven.parent [clean,install]" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceIT.nameValidation" />
+        <item itemvalue="JUnit.UserServiceIT.save" />
+        <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Application.UserServiceBenchmark" />
       </list>
     </recent_temporary>
@@ -150,10 +228,22 @@
       <workItem from="1722797447197" duration="8618000" />
       <workItem from="1723206895970" duration="1295000" />
       <workItem from="1725974841193" duration="566000" />
+      <workItem from="1728040287031" duration="10815000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/6.1.11/spring-tx-6.1.11-sources.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.java</url>
+          <line>372</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

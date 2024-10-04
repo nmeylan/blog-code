@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-jdbc-named-parameters-jdbc-template/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-jdbc-named-parameters-jdbc-template/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-transaction/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-transaction/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-jdbc-named-parameters-jdbc-template" />
+        <module name="spring-transaction" />
       </profile>
       <profile name="Annotation profile for parent" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />

@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>how-to-benchmark-spring-beans-with-jmh</module>
+        <module>spring-transaction</module>
     </modules>
 
     <properties>
