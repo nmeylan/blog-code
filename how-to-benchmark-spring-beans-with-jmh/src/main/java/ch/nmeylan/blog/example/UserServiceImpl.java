@@ -1,7 +1,7 @@
-package ch.nmeylan.articles.example;
+package ch.nmeylan.blog.example;
 
-import ch.nmeylan.articles.example.spi.UserRepository;
-import ch.nmeylan.articles.example.spi.UserService;
+import ch.nmeylan.blog.example.spi.UserRepository;
+import ch.nmeylan.blog.example.spi.UserService;
 import org.springframework.stereotype.Service;
 
 @Service

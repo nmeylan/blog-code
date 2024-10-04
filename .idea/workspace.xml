@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="374be17e-f74a-4461-a381-339dcd0184ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-jdbc-named-parameters-jdbc-template/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/main/java/com/meylantc/articles/example/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/main/java/com/meylantc/articles/example/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/main/java/com/meylantc/articles/example/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/main/java/com/meylantc/articles/example/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/main/java/com/meylantc/articles/example/spi/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/main/java/com/meylantc/articles/example/spi/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/main/java/com/meylantc/articles/example/spi/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/main/java/com/meylantc/articles/example/spi/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/test/java/com/meylantc/articles/example/AbstractBenchmarkContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/test/java/com/meylantc/articles/example/AbstractBenchmarkContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/test/java/com/meylantc/articles/example/BenchmarkApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/test/java/com/meylantc/articles/example/BenchmarkApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/test/java/com/meylantc/articles/example/UserServiceBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src/test/java/com/meylantc/articles/example/UserServiceBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jdbc-named-parameters-jdbc-template/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jdbc-named-parameters-jdbc-template/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,26 +22,26 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.UserServiceBenchmark.executor": "Run",
-    "Maven.parent [clean,install].executor": "Run",
-    "Maven.parent [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/nmeylan/dev/meylan-tech/blog/how-to-benchmark-spring-beans-with-jmh/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.UserServiceBenchmark.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.parent [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.parent [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nmeylan/dev/meylan-tech/blog/how-to-benchmark-spring-beans-with-jmh/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/how-to-benchmark-spring-beans-with-jmh/src" />
@@ -119,7 +107,6 @@
                 <option value="install" />
               </list>
             </option>
-            <option name="multimoduleDir" />
             <option name="pomFileName" />
             <option name="profilesMap">
               <map />
@@ -162,7 +149,7 @@
       <updated>1722797446163</updated>
       <workItem from="1722797447197" duration="8618000" />
       <workItem from="1723206895970" duration="1295000" />
-      <workItem from="1725974841193" duration="402000" />
+      <workItem from="1725974841193" duration="566000" />
     </task>
     <servers />
   </component>

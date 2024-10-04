@@ -1,6 +1,6 @@
-package ch.nmeylan.articles.example.spi;
+package ch.nmeylan.blog.example.spi;
 
-import ch.nmeylan.articles.example.UserEntity;
+import ch.nmeylan.blog.example.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<UserEntity, String>  {

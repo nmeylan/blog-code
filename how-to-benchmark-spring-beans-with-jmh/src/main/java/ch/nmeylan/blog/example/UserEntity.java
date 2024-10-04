@@ -1,4 +1,4 @@
-package ch.nmeylan.articles.example;
+package ch.nmeylan.blog.example;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,4 +1,4 @@
-package ch.nmeylan.articles.example;
+package ch.nmeylan.blog.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.ConfigurableApplicationContext;

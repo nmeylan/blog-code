@@ -1,7 +1,7 @@
-package ch.nmeylan.articles.example;
+package ch.nmeylan.blog.example;
 
 
-import ch.nmeylan.articles.example.spi.UserService;
+import ch.nmeylan.blog.example.spi.UserService;
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.BenchmarkMode;
 import org.openjdk.jmh.annotations.Mode;
@@ -20,8 +20,8 @@ import java.util.UUID;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 
-import static ch.nmeylan.articles.example.UserServiceBenchmark.BenchmarkContext.endExclusive;
-import static ch.nmeylan.articles.example.UserServiceBenchmark.BenchmarkContext.startInclusive;
+import static ch.nmeylan.blog.example.UserServiceBenchmark.BenchmarkContext.endExclusive;
+import static ch.nmeylan.blog.example.UserServiceBenchmark.BenchmarkContext.startInclusive;
 
 public class UserServiceBenchmark {
 
