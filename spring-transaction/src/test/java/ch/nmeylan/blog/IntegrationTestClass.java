@@ -14,7 +14,7 @@ public class IntegrationTestClass {
                 .withPassword("test")
                 .withCommand("postgres");
         postgreSQLContainer.withReuse(true).start();
-        System.setProperty("spring.datasource.url", postgreSQLContainer.getJdbcUrl());
+        System.setProperty("spring.datasource.url", postgreSQLContainer.getJdbcUrl() + "&ApplicationName=nmeylan-blog-example-app");
         System.setProperty("spring.datasource.username", postgreSQLContainer.getUsername());
         System.setProperty("spring.datasource.password", postgreSQLContainer.getPassword());
     }
