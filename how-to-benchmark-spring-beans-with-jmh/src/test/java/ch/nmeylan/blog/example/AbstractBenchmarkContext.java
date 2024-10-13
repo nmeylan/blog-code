@@ -8,8 +8,9 @@ import org.testcontainers.utility.MountableFile;
 import java.util.Properties;
 
 public class AbstractBenchmarkContext {
-     private static PostgreSQLContainer<?> postgreSQLContainer;
-    protected ConfigurableApplicationContext appContext;
+    private static PostgreSQLContainer<?> postgreSQLContainer;
+    protected static ConfigurableApplicationContext appContext;
+
     static {
         MountableFile postgresConf = MountableFile.forClasspathResource("postgres/postgres.conf");
         MountableFile postgresSh = MountableFile.forClasspathResource("postgres/postgres.sh");
@@ -23,7 +24,7 @@ public class AbstractBenchmarkContext {
         postgreSQLContainer.withReuse(true).start();
     }
 
-    protected void setup(Class<?> applicationClass) {
+    protected static void setup(Class<?> applicationClass) {
         SpringApplication application = new SpringApplication(applicationClass/*, any extra configuration class to import */);
         Properties properties = new Properties();
         properties.put("spring.datasource.url", postgreSQLContainer.getJdbcUrl());

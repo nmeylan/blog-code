@@ -31,10 +31,13 @@ public class UserServiceBenchmark {
         static long endExclusive = LocalDate.now().toEpochDay();
         UserService userService;
 
+        static {
+            // This will startup springboot application
+            setup(BenchmarkApplication.class);
+        }
+
         @Setup
         public void setup() {
-            // This will startup springboot application
-            super.setup(BenchmarkApplication.class);
             // Getting the bean we want to test
             userService = appContext.getBean(UserService.class);
         }
