@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jdbc-playground" />
         <module name="spring-jdbc-named-parameters-jdbc-template" />
         <module name="spring-transaction" />
       </profile>

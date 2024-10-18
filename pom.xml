@@ -11,6 +11,7 @@
     <modules>
         <module>how-to-benchmark-spring-beans-with-jmh</module>
         <module>spring-transaction</module>
+        <module>jdbc-playground</module>
     </modules>
 
     <properties>
