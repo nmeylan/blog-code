@@ -11,98 +11,98 @@ import java.math.BigDecimal;
 @Table(name = "items")
 public class ItemEntity {
     @Id
-    private String id;
+    protected String id;
 
     @Column(name = "name_aegis")
-    private String nameAegis;
+    protected String nameAegis;
 
     @Column(name = "name_english")
-    private String nameEnglish;
+    protected String nameEnglish;
 
     @Column(name = "type")
-    private String type;
+    protected String type;
 
     @Column(name = "sub_type")
-    private String subType;
+    protected String subType;
 
     @Column(name = "price_buy")
-    private BigDecimal priceBuy;
+    protected BigDecimal priceBuy;
 
     @Column(name = "price_sell")
-    private BigDecimal priceSell;
+    protected BigDecimal priceSell;
 
     @Column(name = "weight")
-    private Integer weight;
+    protected Integer weight;
 
     @Column(name = "defense")
-    private Integer defense;
+    protected Integer defense;
 
     @Column(name = "attack")
-    private Integer attack;
+    protected Integer attack;
 
     @Column(name = "range")
-    private Integer range;
+    protected Integer range;
 
     @Column(name = "slots")
-    private Integer slots;
+    protected Integer slots;
 
     @Column(name = "job_all")
-    private Boolean jobAll;
+    protected Boolean jobAll;
 
     @Column(name = "job_acolyte")
-    private Boolean jobAcolyte;
+    protected Boolean jobAcolyte;
 
     @Column(name = "job_archer")
-    private Boolean jobArcher;
+    protected Boolean jobArcher;
 
     @Column(name = "job_alchemist")
-    private Boolean jobAlchemist;
+    protected Boolean jobAlchemist;
 
     @Column(name = "job_assassin")
-    private Boolean jobAssassin;
+    protected Boolean jobAssassin;
 
     @Column(name = "job_barddancer")
-    private Boolean jobBarddancer;
+    protected Boolean jobBarddancer;
     @Column(name = "job_blacksmith")
-    private Boolean jobBlacksmith;
+    protected Boolean jobBlacksmith;
     @Column(name = "job_crusader")
-    private Boolean jobCrusader;
+    protected Boolean jobCrusader;
     @Column(name = "job_gunslinger")
-    private Boolean jobGunslinger;
+    protected Boolean jobGunslinger;
     @Column(name = "job_hunter")
-    private Boolean jobHunter;
+    protected Boolean jobHunter;
     @Column(name = "job_knight")
-    private Boolean jobKnight;
+    protected Boolean jobKnight;
     @Column(name = "job_mage")
-    private Boolean jobMage;
+    protected Boolean jobMage;
     @Column(name = "job_merchant")
-    private Boolean jobMerchant;
+    protected Boolean jobMerchant;
     @Column(name = "job_monk")
-    private Boolean jobMonk;
+    protected Boolean jobMonk;
     @Column(name = "job_ninja")
-    private Boolean jobNinja;
+    protected Boolean jobNinja;
     @Column(name = "job_novice")
-    private Boolean jobNovice;
+    protected Boolean jobNovice;
     @Column(name = "job_priest")
-    private Boolean jobPriest;
+    protected Boolean jobPriest;
     @Column(name = "job_rogue")
-    private Boolean jobRogue;
+    protected Boolean jobRogue;
     @Column(name = "job_sage")
-    private Boolean jobSage;
+    protected Boolean jobSage;
     @Column(name = "job_soullinker")
-    private Boolean jobSoullinker;
+    protected Boolean jobSoullinker;
     @Column(name = "job_stargladiator")
-    private Boolean jobStargladiator;
+    protected Boolean jobStargladiator;
     @Column(name = "job_supernovice")
-    private Boolean jobSupernovice;
+    protected Boolean jobSupernovice;
     @Column(name = "job_swordman")
-    private Boolean jobSwordman;
+    protected Boolean jobSwordman;
     @Column(name = "job_taekwon")
-    private Boolean jobTaekwon;
+    protected Boolean jobTaekwon;
     @Column(name = "job_thief")
-    private Boolean jobThief;
+    protected Boolean jobThief;
     @Column(name = "job_wizard")
-    private Boolean jobWizard;
+    protected Boolean jobWizard;
 
 
     public String getId() {
@@ -173,7 +173,7 @@ public class ItemEntity {
 
     public ItemEntity setPriceSell(Integer priceSell) {
         if (priceSell != null) {
-            this.priceSell =  new BigDecimal(priceSell);
+            this.priceSell = new BigDecimal(priceSell);
         }
         return this;
     }
@@ -456,4 +456,5 @@ public class ItemEntity {
         this.jobWizard = jobWizard;
         return this;
     }
+
 }

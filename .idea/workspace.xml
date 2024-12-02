@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="374be17e-f74a-4461-a381-339dcd0184ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jdbc-named-parameters-jdbc-template/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-jdbc-named-parameters-jdbc-template/src/main/java/com/meylantc/blog/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-playground/src/main/java/ch/nmeylan/blog/example/ItemEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-playground/src/main/java/ch/nmeylan/blog/example/ItemEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +52,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-21&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/dev/synced/blog-code/jdbc-playground/src/test/java/ch/nmeylan/blog/example&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/synced/blog-code&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -91,7 +86,7 @@
       <recent name="ch.nmeylan.blog.spi" />
     </key>
   </component>
-  <component name="RunManager" selected="Jmh.ItemRepositoryBenchmark.batchInsert_JdbcTemplateNoType$">
+  <component name="RunManager" selected="Application.ItemRepositoryBenchmark">
     <configuration name="ItemRepositoryBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch.nmeylan.blog.example.ItemRepositoryBenchmark" />
       <module name="jdbc-playground" />
@@ -191,7 +186,6 @@
                 <option value="install" />
               </list>
             </option>
-            <option name="multimoduleDir" />
             <option name="pomFileName" />
             <option name="profilesMap">
               <map />
@@ -214,15 +208,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.ItemRepositoryBenchmark" />
-      <item itemvalue="Application.ch.nmeylan.blog.example.Main" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Jmh.ItemRepositoryBenchmark.batchInsert_JdbcTemplateNoType$" />
+      <item itemvalue="Application.ch.nmeylan.blog.example.Main" />
       <item itemvalue="JUnit.UserServiceIT.insertNoAtTransactional" />
       <item itemvalue="Maven.parent [clean,install]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jmh.ItemRepositoryBenchmark.batchInsert_JdbcTemplateNoType$" />
         <item itemvalue="Application.ch.nmeylan.blog.example.Main" />
         <item itemvalue="Application.ItemRepositoryBenchmark" />
         <item itemvalue="Application.Main" />
@@ -253,7 +245,7 @@
       <workItem from="1728734157149" duration="4214000" />
       <workItem from="1728800329600" duration="26000" />
       <workItem from="1728800362699" duration="6752000" />
-      <workItem from="1729244767256" duration="300000" />
+      <workItem from="1729244767256" duration="2975000" />
     </task>
     <servers />
   </component>
